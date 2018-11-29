@@ -12,17 +12,17 @@
 * I added a lot of verbosity to understand what is the program doing 
 
 #### Installation:
-    * Unzip the file into a folder. From this folder, execute:
-    ```bash 
-    make install 
-    ```
-    
-    * In case of not having make, use the following commands: 
-    ```bash
-        virtualenv --python=python3.7 env 
-        source ./env/bin/activate
-        pip3 install -r requirements.txt    
-    ```
+* Unzip the file into a folder. From this folder, execute:
+```bash 
+make install 
+```    
+   
+* In case of not having make, use the following commands: 
+```bash
+virtualenv --python=python3.7 env 
+source ./env/bin/activate
+pip3 install -r requirements.txt    
+```
 
 #### Program design decisions:
 * Initially I tried to develop it using [Asyncio](https://docs.python.org/3/library/asyncio.html). 
