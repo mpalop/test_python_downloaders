@@ -38,7 +38,7 @@ pip3 install -r requirements.txt
 #### Usage:
 ```bash
 ➜ source ./env/bin/activate
-(env)➜  glovo ./downloader.py
+(env)➜  test ./downloader.py
 usage: downloader.py [-h] [--profile PROFILE] [--chunk CHUNK]
                      [--threads THREADS]
                      urls [urls ...]
